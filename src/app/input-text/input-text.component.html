@@ -1,0 +1,4 @@
+<form id="input-form" [formGroup]="inputForm" (ngSubmit)="onSubmitMessage()">
+  <input id="input-text" type="text" formControlName="text" (value)="(text)" />
+  <button id="button-send" type="submit">Send</button>
+</form>
